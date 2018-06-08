@@ -1,0 +1,2 @@
+webpackJsonp([0x9d599e428853],{432:function(e,t){e.exports={data:{markdownRemark:{html:"<p>Registered the company. Get in contact with us at fh@viridinord.dk, ik@viridinord.dk, ra@viridinord.dk &#x26; nao@viridinord.dk</p>",frontmatter:{title:"Company registered",date:"06.08.2018",category:"General"},timeToRead:1}},pathContext:{slug:"/company-registered",prev:!1,next:!1}}}});
+//# sourceMappingURL=path---company-registered-f68ef5030f10220e6b41.js.map
