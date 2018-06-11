@@ -52,7 +52,7 @@ const Contact = () => (
     <Content>
       <h1>Contact</h1>
       <p>Write us an email.</p>
-      <form name="contact-form" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+      <form name="contact-form" method="post" data-netlify="true" data-netlify-honeypot="bot-field" action="https://formspree.io/fh@viridinord.dk">
         <p>
           <label htmlFor="name">Name</label>
           <input name="name" type="text" required />

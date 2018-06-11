@@ -4,10 +4,11 @@
   "version": "1.0.0",
   "author": "LekoArts <hello@lekoarts.de>",
   "dependencies": {
-    "gatsby": "^1.9.231",
+    "gatsby": "^1.9.270",
     "gatsby-link": "^1.6.39",
     "gatsby-plugin-catch-links": "^1.0.19",
     "gatsby-plugin-favicon": "^2.1.1",
+    "gatsby-plugin-google-analytics": "^1.0.31",
     "gatsby-plugin-lodash": "^1.0.11",
     "gatsby-plugin-manifest": "^1.0.15",
     "gatsby-plugin-offline": "^1.0.15",
@@ -34,7 +35,7 @@
   "scripts": {
     "build": "gatsby build",
     "dev": "gatsby develop -o",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "gatsby build --prefix-paths  && cp ./src/CNAME public/ && gh-pages -d public"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.2",
